@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <!-- Google Font(Manrope)  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind css & Daisy ui  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        para: '#13131899',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="font-manrope">
+    <header class="mx-4 lg:mx-20">
+        <div class="carousel w-full mt-16">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+        <div class="flex lg:justify-end lg:relative">
+            <div class="bg-[#131318] text-[#FFFFFF] space-y-3 p-7 lg:w-1/2 lg:absolute -top-48 right-6 rounded-xl">
+                <h2 class="text-xl lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                <p class="text-sm font-medium">A football club has offered a position on the board to the first person
+                    <br> that wins the Premier League with them on the top condition
+                </p>
+            </div>
+
+        </div>
+    </header>
+    <main class="mx-3 lg:mx-20">
+        <!-- Professional Football club  -->
+        <div class="mt-12 text-center space-y-4">
+            <h3 class="text-4xl font-extrabold">Professional Football club Man United</h3>
+            <p class="text-sm font-medium">Manchester United Football Club, commonly referred to as Man United, or
+                simply United, is a professional football club <br> based in Old Trafford, Greater Manchester, England
+            </p>
+        </div>
+
+        <div class="grid gap-5  grid-cols-1 lg:grid-cols-4 mb-14">
+            <!-- 1st radial progress  -->
+            <div class="mt-4 lg:mt-20 text-center">
+                <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                <h4 class="text-2xl font-semibold mt-7 mb-3">Prayer Facility</h4>
+                <p class="text-sm font-normal text-[#13131899]">An ex-star makes bizarre claims about Manchester
+                    United's training facilities.In wolrd class training ground.</p>
+            </div>
+            <!-- 2nd radial progress  -->
+            <div class="mt-4 lg:mt-20 text-center">
+                <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                <h4 class="text-2xl font-semibold mt-7 mb-3">Experienced Coach</h4>
+                <p class="text-sm font-normal text-[#13131899]">Will Erik ten Hag survive many more results like the
+                    ones that have seen Manchester United exit Europe and slump in the Premier League.</p>
+            </div>
+            <!-- 3rd radial progress  -->
+            <div class="mt-4 lg:mt-20 text-center">
+                <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                <h4 class="text-2xl font-semibold mt-7 mb-3">Senior Player</h4>
+                <p class="text-sm font-normal text-[#13131899]"> This club in many senior football players brono
+                    fernades, kesemero, de gie, herry maguire,martinez .</p>
+            </div>
+            <!-- 4th radial progress  -->
+            <div class="mt-4 lg:mt-20 text-center">
+                <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
+                <h4 class="text-2xl font-semibold mt-7 mb-3">Training Ground</h4>
+                <p class="text-sm font-normal text-[#13131899]">Trafford Training Centre is the training ground and
+                    academy headquarters of English football club Manchester United F.C..</p>
+            </div>
+        </div>
+        <!-- Program Sections start here  -->
+        <section>
+            <div class="text-center mb-12">
+                <h3 class="text-4xl font-extrabold text-[#131318]">Program/Player Sections</h3>
+                <p class="text-para text-sm font-medium">One football club in veraties player playing.Most cetagories -
+                    Teenager,Younger & Senior one football club in <br> veraties player playing.Most cetagories -
+                    Teenager,Younger & Senior</p>
+            </div>
+            <div class="flex gap-3 flex-col lg:flex-row mb-3">
+                <div class="hero flex-1" style="background-image: url('Images/2.png');">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-neutral-content">
+                        <div class="pt-20 px-4 pb-3">
+                            <h1 class="mb-5 text-3xl font-bold">Teenager Program/Player</h1>
+                            <p class="mb-5 text-sm font-normal">Alejandro Garnacho. Signed from Atletico Madrid’s
+                                academy in September …
+                                Alvaro Fernandez. Despite being offered a new contract
+
+                            </p>
+                            <button class="btn bg-[#FF4240] text-white w-44 text-xl font-bold">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero flex-1" style="background-image: url('Images/3.png');">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-neutral-content">
+                        <div class="pt-20 px-5 pb-3">
+                            <h1 class="mb-5 text-3xl font-bold">Younger Program/Player</h1>
+                            <p class="mb-5 text-sm font-normal">Mainoo joined Manchester United as a youth player,
+                                progressing through the club's academy before making his debut
+
+                            </p>
+                            <button class="btn bg-[#FF4240] text-white w-44 text-xl font-bold">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd images  -->
+            <div class="">
+                <div class="hero flex-1" style="background-image: url('Images/4.png');">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-neutral-content">
+                        <div class="pt-20 px-4 pb-3 lg:pr-[600px]">
+                            <h1 class="mb-5 text-3xl font-bold">Senior Program/Player</h1>
+                            <p class="mb-5 text-sm font-normal">A month after his first-ever senior Red Devils
+                                appearance he made his debut in English top flight action on February
+                                entering for the final 10 minutes plus stoppage time against Leicester City.
+
+                            </p>
+                            <button class="btn bg-[#FF4240] text-white w-44 text-xl font-bold">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
