@@ -517,7 +517,7 @@
             <div class="flex flex-col lg:flex-row gap-10">
                 <!-- 1st card Get In Touch -->
                 <div class="flex flex-col gap-7">
-                    <div class="w-96 bg-[#BCED6D1A] pt-5 shadow-xl">
+                    <div class=" bg-[#BCED6D1A] pt-5 shadow-xl">
                         <figure class="pl-8"><img src="Images/Group 1171275317.png" alt="call" /></figure>
                         <div class="card-body">
                             <p class="text-sm text-para font-normal">If Contract me then call my phone number </p>
@@ -525,20 +525,20 @@
                         </div>
                     </div>
                     <!-- 2nd card Get In Touch -->
-                    <div class="w-96 bg-[#FDDD5F1A] pt-5 shadow-xl">
+                    <div class=" bg-[#FDDD5F1A] pt-5 shadow-xl">
                         <figure class="pl-8"><img src="Images/Group 1171275318.png" alt="call" /></figure>
                         <div class="card-body">
                             <p class="text-sm text-para font-normal">My Email address</p>
-                            <h2 class="text-xl text-title font-bold">mdjowelahmed924@gmail.com</h2>
+                            <h2 class="text-xl text-title font-medium lg:font-semibold flex-wrap xs: text-sm">jowelahmed924 @gmail.com</h2>
                         </div>
                     </div>
                     <!-- 3rd card Get In Touch -->
-                    <div class="w-96 bg-[#629CF31A] pt-5 shadow-xl">
+                    <div class=" bg-[#629CF31A] pt-5 shadow-xl">
                         <figure class="pl-8"><img src="Images/Group 1171275321.png" alt="call" /></figure>
                         <div class="card-body">
                             <p class="text-sm text-para font-normal">My Location </p>
-                            <address class="text-xl text-title font-bold">
-                                Ampal,Muradnagor,cumilla
+                            <address class="text-xl text-title font-medium lg:font-semibold text-wrap">
+                                Ampal, Muradnagor, cumilla
                             </address>
                             <h2></h2>
                         </div>
@@ -593,6 +593,7 @@
             </div>
         </section>
     </main>
+    <!-- footer section start  -->
     <footer class="footer p-10 bg-[#131318]">
         <aside>
             <h3 class="text-xl font-extrabold text-white"> Get In Touch</h3>
@@ -608,21 +609,37 @@
             </div>
         </aside>
 
-        <nav>
-            <header class=" text-white">Company</header>
-            <a class="link link-hover text-[#FFFFFF99]">About us</a>
-            <a class="link link-hover text-[#FFFFFF99]">Leadership</a>
-            <a class="link link-hover text-[#FFFFFF99]">Homework</a>
-            <a class="link link-hover text-[#FFFFFF99]">Sub service</a>
+        <nav class="hidden lg:block">
+            <header class=" text-white mb-2">Company</header>
+            <a class="link link-hover text-[#FFFFFF99]">About us</a><br>
+            <a class="link link-hover text-[#FFFFFF99]">Leadership</a><br>
+            <a class="link link-hover text-[#FFFFFF99]">Homework</a><br>
+            <a class="link link-hover text-[#FFFFFF99]">Sub service</a><br>
         </nav>
-        <nav>
-            <header class=" text-white"> Support</header>
-            <a class="link link-hover text-[#FFFFFF99]">Help center</a>
-            <a class="link link-hover text-[#FFFFFF99]">Contact</a>
-            <a class="link link-hover text-[#FFFFFF99]">Jobs</a>
-            <a class="link link-hover text-[#FFFFFF99]">Press kit</a>
+        <nav class="hidden lg:block">
+            <header class=" text-white mb-2"> Support</header>
+            <a class="link link-hover text-[#FFFFFF99] ">Help center</a><br>
+            <a class="link link-hover text-[#FFFFFF99] ">Contact</a><br>
+            <a class="link link-hover text-[#FFFFFF99]">Jobs</a><br>
+            <a class="link link-hover text-[#FFFFFF99]">Press kit</a><br>
         </nav>
-        <nav>
+        <div class="flex gap-x-20 block lg:hidden ">
+            <nav class="flex-">
+                <header class=" text-white mb-2">Company</header>
+                <a class="link link-hover text-[#FFFFFF99]">About us</a><br>
+                <a class="link link-hover text-[#FFFFFF99]">Leadership</a><br>
+                <a class="link link-hover text-[#FFFFFF99]">Homework</a><br>
+                <a class="link link-hover text-[#FFFFFF99]">Sub service</a><br>
+            </nav>
+            <nav class="">
+                <header class=" text-white"> Support</header>
+                <a class="link link-hover text-[#FFFFFF99]">Help center</a><br>
+                <a class="link link-hover text-[#FFFFFF99]">Contact</a><br>
+                <a class="link link-hover text-[#FFFFFF99]">Jobs</a><br>
+                <a class="link link-hover text-[#FFFFFF99]">Press kit</a><br>
+            </nav>
+        </div>
+        <nav class="pl-20 lg:pl-0">
             <header class=" text-white">Service</header>
             <a class="link link-hover text-[#FFFFFF99]">Training </a>
             <a class="link link-hover text-[#FFFFFF99] ">Practice</a>
